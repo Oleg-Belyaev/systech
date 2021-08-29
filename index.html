@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Системные технологии. Тест</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div class="page">
+    <ul class="day-list"></ul>
+  </div>
+
+  <template id="product">
+    <li class="product">
+      <img alt="Товар" class="product__image">
+      <div class="product__item">
+        <p class="product__name"></p>
+        <div class="product__description">
+          <p class="product__price"></p>
+          <p class="product__cost"></p>
+        </div>
+      </div>
+    </li>
+  </template>
+
+  <template id="document">
+    <li class="document">
+      <div class="document__container">
+        <p class="document__name"></p>
+        <p class="document__cost"></p>
+      </div>
+      <p class="document__count"></p>
+      <ul class="product-list"></ul>
+    </li>
+  </template>
+
+  <template id="day">
+    <li class="day">
+      <div class="day__container">
+        <p class="day__date"></p>
+        <p class="day__description"></p>
+      </div>
+      <ul class="document-list"></ul>
+    </li>
+  </template>
+
+  <script type="text/javascript" src="javascrip.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+.page {
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #c7cfc3;
+  width: 100vw;
+  position: relative;
+  display: flex;
+}
+
+.day-list {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  min-width: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .day-list {
+    min-width: 320px;
+  }
+}
+
+.day {
+  padding: 0 20px;
+  margin-bottom: 5px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .day {
+    padding: 0;
+  }
+}
+
+.day__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day__description {
+  color: #808080;
+}
+
+.day__date {
+  color: #808080;
+}
+
+.document-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.document {
+  min-width: 350px;
+  padding: 20px 0;
+  border-bottom: #808080 1px solid;
+}
+
+@media screen and (max-width: 600px) {
+  .document {
+    min-width: 300px;
+  }
+}
+
+.document:last-of-type {
+  border: none;
+}
+
+.document__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.document__name {
+  color: #808080;
+  padding: 0 0 10px 0;
+  margin: 0 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .document__name {
+    margin: 0 20px;
+  }
+}
+
+.document__cost {
+  color: #808080;
+  padding: 0 0 10px 0;
+  margin: 0 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .document__cost {
+    margin: 0 20px;
+  }
+}
+
+.document__count {
+  color: #808080;
+  padding: 0 0 10px 0;
+  margin: 0 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .document__count {
+    margin: 0 20px;
+  }
+}
+
+.product-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product {
+  display: flex;
+  align-items: flex-end;
+  min-width: 350px;
+  padding: 0 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .product {
+    min-width: 300px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+}
+
+.product__image {
+  width: 70px;
+  height: 70px;
+}
+
+.product__name {
+  font-size: 15px;
+  line-height: 1.1;
+  margin: 10px 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 315px;
+}
+
+@media screen and (max-width: 600px) {
+  .product__name {
+    max-width: 230px;
+  }
+}
+
+.product__description {
+  display: flex;
+  justify-content: space-between;
+  min-width: 315px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .product__description {
+    min-width: 230px;
+  }
+}
+
+.product__cost {
+  font-size: 20px;
+  line-height: 1.1;
+  margin: 10px 0;
+}
+
+.product__price {
+  font-size: 20px;
+  line-height: 1.1;
+  margin: 10px 0;
+}
+
+.product__item {
+  margin-left: 15px;
+}
